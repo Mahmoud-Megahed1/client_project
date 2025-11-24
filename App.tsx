@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useRef, useEffect } from 'react';
 import { AppState, GenerationResult } from './types';
-import { generateSlidesAndSummary } from './services/geminiService';
+import { generateSlidesAndSummary } from './services/aiClient';
 import { FileUpload } from './components/FileUpload';
 import { ResultsDisplay } from './components/ResultsDisplay';
 import { 
